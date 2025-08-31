@@ -41,3 +41,25 @@ op
 10 photos deleted
 90 photos left
 --------------------------------------------------------------
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count--
+    println("You have $count unread messages.")
+}
+op
+You have 10 unread messages.
+You have 9 unread messages.
+---------------------------------------------------------------
+fun birthdayGreeting(): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+}
+fun main() {
+    val greeting = birthdayGreeting()
+    println(greeting)
+}
+op
+Happy Birthday, Rover!
+You are now 5 years old!
+--------------------------------------------------------------
