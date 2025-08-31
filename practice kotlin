@@ -1,0 +1,9 @@
+fun main() {
+  val ice=10
+  var cake=15
+  cake =8
+  print("i have ${cake+2} cake")
+}
+ op
+i have 10 cake
+----------------------------------------------------------------
