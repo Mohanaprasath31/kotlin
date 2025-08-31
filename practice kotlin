@@ -29,3 +29,15 @@ fun main() {
 op
 You have 105 total messages in your inbox
 ------------------------------------------------------------
+fun main() {
+    val numberOfPhotos = 100
+    val photosDeleted = 10
+    println("$numberOfPhotos photos")
+    println("$photosDeleted photos deleted")
+    println("${numberOfPhotos - photosDeleted} photos left")
+}
+op
+100 photos
+10 photos deleted
+90 photos left
+--------------------------------------------------------------
